@@ -2,7 +2,7 @@
 A Chrome extension that help you to copy url
 
 ## Install
-https://chrome.google.com/webstore/detail/cefkgjbbpagcilodnhboolbppdjlplip/publish-accepted
+https://chrome.google.com/webstore/detail/cefkgjbbpagcilodnhboolbppdjlplip
 
 ## Features
 - Simple and Fast
