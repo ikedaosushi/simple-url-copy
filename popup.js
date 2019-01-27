@@ -14,7 +14,7 @@ const copyText = text => {
 
 const extractAmazonUrl = rawUrl => {
   const url = new URL(rawUrl);
-  if (url.host == AMAZON_HOST) {
+  if (url.host == AMAZON_HOST && url.pathname.match(/\/dp\/[A-Za-z0-9]+\//)) {
     newUrl = url.origin + url.pathname.replace(/(^\S+)(\/dp\/[A-Za-z0-9]+\/)(.*)/, '$2');
     return newUrl;
   } else {
