@@ -1,6 +1,9 @@
 ## Simple URL Copy
 A Chrome extension that help you to copy url
 
+## Install
+https://chrome.google.com/webstore/detail/cefkgjbbpagcilodnhboolbppdjlplip/publish-accepted
+
 ## Features
 - Simple and Fast
 - It can copy as markdown style.
