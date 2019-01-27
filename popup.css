@@ -1,0 +1,65 @@
+body {
+  width: 330px;
+}
+.demo-card-square > .mdl-card__title {
+  color: white;
+  background-color: #00b8ac;
+}
+.mdl-button {
+  display: inline;
+  text-transform: none;
+  padding: 0;
+  line-height: 20px;
+}
+
+.mdl-card__actions {
+  padding: 8px 16px;
+  /* width: 91%; */
+}
+
+.bettercopy-checkbox {
+  display: inline-block;
+  width: 47%;
+}
+
+.mdl-switch__label {
+  color: #0000008a;
+  font-size: 12px;
+  left: 16px;
+}
+
+.bettercopy-menu {
+  cursor: pointer;
+}
+
+.bettercopy-copy {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bettercopy-textarea{
+  display: block;
+  padding: 5px;
+  width: 97%;
+  height: 50px;
+  line-height: 18px;
+  overflow: auto;
+  word-break: break-all;
+  text-align: left;
+  background-color: #00bcab7a;
+  font-size: 10px;
+  cursor: text;
+}
+
+#copied {
+  margin: 0 0 0 20px;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0s;
+}
+
+#copied.invisible {
+  opacity: 0;
+  transition: 2s;
+}
