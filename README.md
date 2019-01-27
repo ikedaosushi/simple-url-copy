@@ -4,7 +4,7 @@ A Chrome extension that help you to copy url
 ## Features
 - Simple and Fast
 - It can copy as markdown style.
-- It can copy and open menu by shotcut(ctrl+shift+C)
+- It can copy and open menu by shotcut(ctrl+shift+c)
 - It can exclude query strings, and trim Japanese Amazon's verbose URL.
 
 ## Demo
