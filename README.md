@@ -1,5 +1,5 @@
 ## Simple URL Copy
-A Chrome extension that help you to copy url
+A Chrome extension that help you to copy URL
 
 ## Install
 https://chrome.google.com/webstore/detail/cefkgjbbpagcilodnhboolbppdjlplip
