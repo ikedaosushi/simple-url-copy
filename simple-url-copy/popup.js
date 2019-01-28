@@ -35,8 +35,7 @@ const showCopied = _ => {
 }
 
 const copyUrl = menuType => {
-  // chrome.tabs.query({active: true, currentWindow: true, lastFocusedWindow: true }, function (tabs) {
-  chrome.tabs.query({ active: true }, function (tabs) {
+  chrome.tabs.query({ active: true, currentWindow: true, lastFocusedWindow: true }, function (tabs) {
     let url = tabs[0].url;
     const title = tabs[0].title;
 
