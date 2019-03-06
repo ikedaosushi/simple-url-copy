@@ -52,6 +52,9 @@ const copyUrl = menuType => {
       case "markdown":
         text = `[${title}](${url})`
         break;
+      case "backlog":
+        text = `[[${title}:${url}]]`
+        break;
       case "simple":
         text = `${title} ${url}`
         break;
