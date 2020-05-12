@@ -61,6 +61,9 @@ const copyUrl = menuType => {
       case "with-newline":
         text = `${title}\n${url}`
         break;
+      case "textile":
+        text = `"${title}":${url}`
+        break;
     }
     copyText(text);
     showCopied();

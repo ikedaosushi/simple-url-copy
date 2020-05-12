@@ -8,6 +8,7 @@ https://chrome.google.com/webstore/detail/cefkgjbbpagcilodnhboolbppdjlplip
 - Simple and Fast
 - It can copy as markdown style.
 - It can copy as [Backlog](https://www.backlog.com/) style.
+- It can copy as [Textile](https://www.promptworks.com/textile/) style.
 - It can copy and open menu by shotcut(ctrl+shift+c)
 - It can exclude query strings, and trim Japanese Amazon's verbose URL.
 
